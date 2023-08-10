@@ -1,0 +1,1 @@
+# myminicom_wordpress
