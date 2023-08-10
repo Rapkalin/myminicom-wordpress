@@ -1,0 +1,53 @@
+{
+  "name": "rapkalin/myminicom",
+  "description": "Blog Wordpress project",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Rapkalin",
+      "email": "raphael@myminicom.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "^6.2",
+    "composer/installers": "^2.2",
+    "vlucas/phpdotenv": "^5.5",
+    "wpackagist-theme/hugo-wp": "1.0.6"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "DarkLucille\\": "website/"
+    }
+  },
+  "config": {
+    "vendor-dir": "website/vendor",
+    "allow-plugins": {
+      "composer/installers": true,
+      "johnpbloch/wordpress-core-installer": true
+    }
+  },
+  "extra": {
+    "wordpress-install-dir": "website/wordpress-core",
+    "installer-paths": {
+      "website/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ],
+      "website/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  }
+}
