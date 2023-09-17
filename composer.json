@@ -22,7 +22,20 @@
     "johnpbloch/wordpress": "^6.2",
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
-    "wpackagist-theme/hugo-wp": "1.0.6"
+
+    "wpackagist-theme/parabola":"2.4.0.1",
+
+    "wpackagist-plugin/bknewsticker":"^1.0",
+    "wpackagist-plugin/cryout-theme-settings":"^0.5",
+    "wpackagist-plugin/instagram-feed":"^6.2",
+    "wpackagist-plugin/shareaholic":"9.7",
+    "wpackagist-plugin/simple-social-icons":"^3.1",
+    "wpackagist-plugin/tinymce-advanced":"^5.9",
+    "wpackagist-plugin/wordpress-seo":"^20.13",
+    "wpackagist-plugin/wp-super-cache":"^2.0.0-beta",
+    "wpackagist-plugin/wpforms-lite":"^1.8",
+    "wpackagist-plugin/wptouch":"4.3",
+    "wpackagist-plugin/yet-another-related-posts-plugin":"^5.30"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
