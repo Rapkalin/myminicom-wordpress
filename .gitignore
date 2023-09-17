@@ -27,30 +27,23 @@ website/app/*
 !website/app/themes/
 !website/app/advanced-cache.php
 !website/app/object-cache.php
-website/app/themes/newsmatic
-website/app/themes/hugo-wp
-exports/*
-!exports/.gitkeep
+website/app/themes/parabola
 
 #Plugins to ignore
 !website/app/plugins/
-website/app/plugins/advanced-accordion-block
-website/app/plugins/akismet
-website/app/plugins/code-syntax-block
-website/app/plugins/cookie-law-info
-website/app/plugins/dashboard-widgets-suite
-website/app/plugins/hello-dolly
-website/app/plugins/imagemagick-engine
-website/app/plugins/jetpack
-website/app/plugins/performance-lab
-website/app/plugins/w3-total-cache
+website/app/plugins/bknewsticker
+website/app/plugins/shareaholic
+website/app/plugins/cryout-theme-settings
+website/app/plugins/instagram-feed
+website/app/plugins/simple-social-icons
+website/app/plugins/wp-super-cache
+website/app/plugins/wpforms-lite
+website/app/plugins/wptouch
+website/app/plugins/tinymce-advanced
 website/app/plugins/wordpress-seo
-website/app/plugins/wp-ulike
-website/app/plugins/google-site-kit
-
+website/app/plugins/yet-another-related-posts-plugin
 
 # Global gitignore setup
-/composer.lock
 website/.env
 .bundle/
 *.retry

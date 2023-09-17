@@ -1,6 +1,4 @@
 <?php
-
-<?php
 /**
  * The base configuration for WordPress
  *
@@ -20,6 +18,8 @@
  * @package WordPress
  */
 
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', '/Users/r.kalinowski/Sites/myminicom-wordpress/website/app/plugins/wp-super-cache/' );
 define('DIR_VENDOR', __DIR__.'/vendor/');
 
 // Autoloader
@@ -77,7 +77,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'airplanneur_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -101,11 +101,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Define a custom default theme */
-define( 'WP_DEFAULT_THEME', 'hugo-wp' );
+define( 'WP_DEFAULT_THEME', 'parabola' );
 
 /** Define a custom content directory */
-define ('WP_CONTENT_DIR', __DIR__ . '/app/');
-define ('WP_CONTENT_URL', $env['WP_CONTENT_URL'] . '/app/');
+define ('WP_CONTENT_DIR', __DIR__ . '/app');
+define ('WP_CONTENT_URL', $env['WP_CONTENT_URL'] . 'app');
 define( 'WP_SITEURL',  $env['WP_SITEURL'] . 'wordpress-core/');
 
 /* That's all, stop editing! Happy publishing. */
