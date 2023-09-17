@@ -19,7 +19,7 @@
  */
 
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', '/Users/r.kalinowski/Sites/myminicom_wordpress/website/app/plugins/wp-super-cache/' );
+define( 'WPCACHEHOME', '/Users/r.kalinowski/Sites/myminicom-wordpress/website/app/plugins/wp-super-cache/' );
 define('DIR_VENDOR', __DIR__.'/vendor/');
 
 // Autoloader
