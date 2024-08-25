@@ -37,7 +37,8 @@
     "wpackagist-plugin/wp-super-cache":"^1.10",
     "wpackagist-plugin/wpforms-lite":"^1.8",
     "wpackagist-plugin/wptouch":"4.3",
-    "wpackagist-plugin/yet-another-related-posts-plugin":"^5.30"
+    "wpackagist-plugin/yet-another-related-posts-plugin":"^5.30",
+    "wpackagist-plugin/advanced-google-recaptcha":"^1.22"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
